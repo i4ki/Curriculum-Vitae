@@ -1,0 +1,151 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass[margin]{res}
+\usepackage [brazil]{babel}     % nomes e hifenaçã em português
+ 
+\usepackage{t1enc}              % Permite digitar os acentos de forma normal
+\usepackage[utf8]{inputenc} 
+
+\topmargin=-0.5in  % start text higher on the page
+\setlength{\textheight}{10in} % increase text height to fit resume on 1 page
+\begin{document}  
+\name{\textit{Tiago Natel de Moura}}
+
+\address{Florianopolis, SC, Brazil\\ tiago4orion@gmail.com \\ Phone: +55 4891051337 \\ Post Code: 88064-612 }
+                           
+                        
+\begin{resume}                        
+ 
+\section{Summary}   I am a software developer passionate about low-level and I like to understand how the machine works. I am interested mainly in C, Go, assembly, embedded systems, Linux kernel and Plan9 operating system. I take simplicity as lifestyle and coding philosophy. I like to understand the definitions, standards and concepts before applying them.
+
+I have dedicated many years of my life to computer security, more precisely malware analysis in UNIX-like environmnet. I developed an opensource project entitled malELFicus, which is a library and a toolkit to analyse and infect ELF binaries. The whole project was written in C. Moreover, I had the opportunity to lecture about it in many conferences in Brazil.
+
+As entrepreneur I founded SEC+, a company focused in computer security consultancy, where our main tasks were pentest development, codereview and coaching.
+
+Currently I'm working as a team leader at Neoway, and I've been coaching other developers, doing code review, guiding and defining technologies. I'm the developer leader of the Neosearch, a library and service to full text search engine written in Golang.
+
+I'm also  very keen of functional programming, particularly Lisp and Scheme. I've also worked with Java, Python, JavaScript, PHP, Lua and C++. Apart from my technical skills, I'm a commited professional, with can-do attitude, extremely motivated and someone who enjoys sharing knowledge. 
+
+\section{Experience}
+
+\vspace{-0.1in}
+   \begin{tabbing}
+   \hspace{2.3in}\= \hspace{1.7in}\= \kill % set up two tab positions
+    \textbf{Neoway}    \>\>\textbf{Sept 2014 - Present}\\
+    \textit{Software Engineer}\\        
+    \textbf{Main Technologies}: Linux, Go, Python, MongoDB, PostgreSQL, LevelDB, NeoSearch;
+   \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
+    \vspace{2mm}  
+    
+  Technical consultant of many product's architecture. Team leader and engineer of a high performance maps software, using a micro-service architecture for store, normalize and process spatial operations. The software allow upload of spatial files, manipulate data with known spatial algorithms (buffer, union, intersection and so on) and crossing with any georeferenced information (companies, people, user data) for analytics.
+This software was developed with simplicity in mind and loosely coupled modules/services. Automatic deploy in Amazon AWS using technologies like CoreOS, Docker and Kubernetes.
+    In the meanwhile I started an opensource library and server for full text search called NeoSearch. The project is designed from the ground up to solve very specific search engine problems of Neoway related to fast JOIN operations between differente datasets and make the process of data modeling changes easy.
+
+\vspace{-0.1in}
+
+\vspace{-0.1in}
+   \begin{tabbing}
+   \hspace{2.3in}\= \hspace{1.7in}\= \kill % set up two tab positions
+    \textbf{SEC+}    \>\>\textbf{Nov 2011 - Sept 2014}\\
+    \textit{IT Security Consultant}\\        
+    \textbf{Main Technologies}: Linux, x86 assembly, C, malelficus, metasploit;
+   \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
+    \vspace{2mm}
+        I was CEO and had worked as IT security consultant, performing penetration tests, code review and coaching. At the same time, I’d started the project malelficus for malware analysis and study of ELF infection methods in unix-like environments. I lectured about it in the following events: H2HC (Hackers to Hackers Conference), FISL (International Forum of Free Software) and others.
+
+\vspace{-0.1in}
+
+   \begin{tabbing}
+   \hspace{2.3in}\= \hspace{1.7in}\= \kill % set up two tab positions
+    \textbf{Neoway (Freelancer)}    \>\>\textbf{Dec 2012 - Dec 2013}\\
+    \textit{Software Engineer}\\        
+    \textbf{Main Technologies}: Linux, Python, Scrapy, Redis
+   \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
+    \vspace{2mm} Development of web crawler using Python, Scrapy framework and redis (PUBSUB) for message passing between services.
+     
+
+   \begin{tabbing}
+   \hspace{2.3in}\= \hspace{1.7in}\= \kill % set up two tab positions
+    \textbf{Neoway}    \>\>\textbf{Jan 2011 - Mar 2012}\\
+    \textit{Software Engineer}\\   
+    \textbf{Main Technologies}: Linux, C/C++, Python, Java
+   \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
+    \vspace{2mm}
+    I was primarily involved in web scraping projects. Below are some of activities that was my responsability:
+    
+    \begin{itemize}
+  \item Development of bots/spiders/crawlers for web using Java;
+  \item Develop an application for sending massive SMS;
+  \item Research in data mining, web scraping and pattern recognition.
+\end{itemize}
+
+   
+   \vspace{2mm}
+   \begin{tabbing}
+   \hspace{2.3in}\= \hspace{1.5in}\= \kill % set up two tab positions
+    \textbf{Access1 Sistemas Informativos}    \>\>\textbf{Feb 2010 - Jan 2011}\\
+    \textit{Software Engineer/Security Consultant}\\   
+    \textbf{Main Technologies}: Linux, C, shellscript, x86 assembly;
+   \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
+    \vspace{2mm}
+    
+    Research and development of scraping solutions;
+    Reverse engineering of windows applications and web technologies (Flash/Flex);
+    
+       
+   \vspace{2mm}
+   \begin{tabbing}
+   \hspace{2.3in}\= \hspace{1.5in}\= \kill % set up two tab positions
+    \textbf{Freelancer}    \>\>\textbf{Feb 2010 - Jan 2011}\\
+    \textit{Web Developer}\\   
+    \textbf{Main Technologies}: PHP, DoctrineORM, Apache, HTML, CSS, Javascript;
+   \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
+    \vspace{2mm}
+    
+   Web developer as freelancer for e-commerce brazillian companies. At that time I had created the Orion-Framework web project.
+
+
+
+\section{Skills Base}  \textit{Operating System}:  Linux based (Archlinux, Debian, CoreOS), Windows NT/XP/Vista and Plan 9
+
+			\textit{Networkings}: TCP/IP, UDP, IL, OSI Model
+  
+			\textit{Progamming Languages}: C, Go, Scheme R5RS, Python, Javascript, Lua and Java;
+  
+			\textit{Processor architecture}:  x86/IA-32, AMD64 and some ARM64;
+
+			\textit{Languages}: Fluent in Portuguese, Intermediate in English and Spanish;
+ 
+\section{Open Source Projects}
+		\begin{itemize}
+		    \vspace{2mm}
+		    \item \textbf{neosearch}: NeoSearch is a feature-limited full-text-search library with focus on indices relationships. Its main goal is to provide very fast JOIN operations between information stored on different indices. Currently in active development.  \vspace{1mm}
+		    \item \textbf{libmalelf}: The libmalelf is an evil library that SHOULD be used for good! It was developed
+		                              with the intent to assist in the process of infecting binaries and provide a safe 
+		                              way to analyze malwares. (\texttt{https://github.com/SecPlus/libmalelf})\vspace{1mm}
+		                              
+		    \item \textbf{malelf}: Malelf is a tool that uses libmalelf to dissect and infect ELF binaries. 
+		                           (\texttt{https://github.com/SecPlus/malelf})
+		 \item \textbf{orion-framework}: PHP Web Framework
+		
+		\end{itemize}
+ 
+\section{More Info}
+    \begin{itemize}
+        \item \textbf{Linkedin}: https://linkedin.com/in/tiagonatel
+         \item \textbf{Github}: https://github.com/tiago4orion
+    \end{itemize}
+
+
+\end{resume} 
+\end{document}
+
+
+
+
+
+
+
+
+
